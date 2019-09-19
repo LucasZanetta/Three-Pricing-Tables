@@ -1,0 +1,35 @@
+.section ul {
+  background: linear-gradient(45deg, #478ba2 0%,#de5b6d 100%);
+  border-radius: 30px;
+}
+
+.section ul li{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.section  .header{
+  font-weight: 700;
+  color: #fff;
+}
+
+.section .header p{
+  font-size: 1.4rem;
+}
+
+.section .header::after{
+  content: '';
+  display: block;
+  width: 150px;
+  border-bottom: 1px solid white;
+  margin: 10px auto;
+}
+
+.section .button{
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.section .button a{  
+  color: #212121;  
+  background-color: #fff;
+}

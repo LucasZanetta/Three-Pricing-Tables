@@ -1,0 +1,62 @@
+.section .cards{
+  padding-top: 3rem;
+}
+
+.section ul { 
+  background: linear-gradient(45deg, #478ba2 0%,#de5b6d 100%); 
+  border-radius: 30px;
+}
+
+.section ul li{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.section .headerafter{
+  padding: 0.5rem; 
+  font-weight: 700;
+  background-color: #fff;
+}
+
+.section .headerafter p{
+  font-size: 3rem;
+  background: linear-gradient(45deg, #478ba2 0%,#de5b6d 100%); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  
+}
+
+.section .item{
+  background-color: rgba(255, 255, 255, 0.1)
+}
+
+.section  .header{
+  font-weight: 700;
+  color: #fff;
+}
+
+.section .header p{ 
+  font-size: 1.4rem;
+}
+
+.section .header::after{
+  content: '';
+  display: block; 
+  width: 150px; 
+  border-bottom: 1px solid white;
+  margin: 10px auto;
+}
+
+.section .button{
+  padding-top: 4rem; 
+  padding-bottom: 2rem;
+}
+
+.section .button a{
+  color: #212121;   
+  background-color: #fff;  
+}
+
+.color{
+  padding-bottom: 1rem;
+}
